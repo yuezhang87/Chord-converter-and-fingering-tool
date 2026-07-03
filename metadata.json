@@ -1,0 +1,6 @@
+{
+  "name": "Chord Converter & Fingering Tool",
+  "description": "An interactive utility to transpose chords, visualize guitar fretboard & piano keyboard fingerings, and play chord audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
