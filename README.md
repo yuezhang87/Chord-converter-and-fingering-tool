@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Chord Converter & Fingering Tool
 
-# Run and deploy your AI Studio app
+**Live app:** [chord-converter-and-fingering-tool.vercel.app](https://chord-converter-and-fingering-tool.vercel.app/)
 
-This contains everything you need to run your app locally.
+![Chord view](./assets/chords.png)
+![Keys/fingering map](./assets/keysmap.png)
 
-View your app in AI Studio: https://aistudio-preprod.corp.google.com/apps/d12b9531-4299-4b9f-b6a2-738a3a7136a6
+## What it does
 
-## Run Locally
+Don't have perfect pitch? Struggle to replicate a song by ear, or find yourself relying on notes without knowing how to actually place your fingers?
 
-**Prerequisites:**  Node.js
+This tool solves that problem — it translates any chord or note into its correct sound and shows you the exact fingering position on **guitar** or **piano**. If it sounds right to you, you'll know exactly how to play it.
 
+No music theory background required. Just find the sound you're looking for, and the tool shows you where to put your fingers.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+- Convert chord names/notes into sound
+- Visual fingering positions for guitar
+- Visual fingering positions for piano
+- Save chord sequences for later (saved locally in your browser)
+
+## Getting Started (Local Development)
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/yuezhang87/Chord-converter-and-fingering-tool.git
+cd Chord-converter-and-fingering-tool
+npm install
+```
+
+Run the app locally:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Tech Stack
+
+- Vite
+- TypeScript
+- React
+
+## Notes
+
+Saved chord sequences are stored in your browser's local storage. Clearing your browser data or switching devices/browsers will not carry over saved sequences.
+
+## License
+
+Add your license here (e.g. MIT), or note that this is a personal project not currently licensed for reuse.
